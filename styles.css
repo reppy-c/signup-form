@@ -1,0 +1,97 @@
+.agu-display-face {
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+  }
+  
+body {
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.8rem;
+}
+
+#sidebar {
+    height: 100vh;
+    flex-grow: 1;
+    background-image: url("luffy.jpg");
+    background-size: auto;
+    background-position: center top;
+}
+
+#main {
+    background-color: #F9FAFB;
+    font-size: 20px;
+    font-weight: 575;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width:680px;
+}
+
+#topArea {
+    padding: 24px 40px;
+}
+
+#middleArea {
+    background-color: #fff;
+    padding: 40px 40px 80px 40px;
+}
+
+#formArea {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 24px;
+    max-width: 580px;
+}
+
+#formArea label {
+    font-size:12px;
+    text-transform: uppercase;
+}
+
+#formArea h2 {
+    font-size: 24px;
+    font-weight: 575;
+    margin-top: 0;
+}
+
+#bottomArea {
+    padding: 24px 40px;
+}
+
+.formfield {
+    display: flex;
+    flex-flow: column;
+}
+
+.formfield input {
+    min-width: 250px;
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #E5E7EB;
+}
+
+.formfield input:focus {
+    box-shadow: 3px 3px 4px  rgba(0,0,0,.25);
+    outline: 1px solid #4171B9;
+    border: 1px inset #4171B9;
+    
+}
+
+form button {
+    background-color: #4171B9;
+    color: #fff;
+    padding: 16px;
+    margin-top: 32px;
+    border: 0;
+}
+
+form button:hover {
+    cursor: pointer;
+}
